@@ -1,0 +1,13 @@
+// @font-face {
+//   font-family: "Noto Sans Thai";
+//   src: url("https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@7/fonts/NotoSansThai/NotoSansThai-Regular.woff2")
+//     format("woff2");
+//   font-style: normal;
+//   font-weight: normal;
+//   font-display: swap;
+// }
+
+@use "vuetify" with (
+  $body-font-family: "Noto Sans Thai"
+);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&display=swap");

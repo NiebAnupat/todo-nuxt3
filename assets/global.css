@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Noto Sans Thai";
+  src: url("https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@7/fonts/NotoSansThai/NotoSansThai-Regular.woff2")
+    format("woff2");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+:root {
+  font-family: "Noto Sans Thai", sans-serif !important;
+}
+
+html,
+body {
+  font-family: "Noto Sans Thai", sans-serif !important;
+}
